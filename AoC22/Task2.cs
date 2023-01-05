@@ -8,7 +8,7 @@ namespace AoC22
 {
     internal class Task2
     {
-        public string strategy { get; set; }
+        public string strategy { get; }
         public Task2()
         {
             try

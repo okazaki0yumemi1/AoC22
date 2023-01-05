@@ -8,7 +8,7 @@ namespace AoC22
 {
     internal class Task3
     {
-        string allRucksacks { get; set; }
+        public string allRucksacks { get; }
         public Task3()
         {
             try
