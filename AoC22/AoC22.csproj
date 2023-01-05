@@ -7,4 +7,22 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Text Files\Task1_Data.txt" />
+    <None Remove="Text Files\Task2_Data.txt" />
+    <None Remove="Text Files\Task3_Data.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Text Files\Task1_Data.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Text Files\Task2_Data.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Text Files\Task3_Data.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
 </Project>
